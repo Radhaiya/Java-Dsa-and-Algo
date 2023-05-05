@@ -16,7 +16,7 @@ public class LinkedList {
 
     private Node head;
 
-    public LinkedList(int data) {
+    public LinkedList() {
         this.head = new Node(data);
     }
 }
