@@ -1,8 +1,11 @@
 package Algorithms;
 
 public class BubbleSortAlgorithm {
-/*   Time Complexity = O(n) -- O(n^2) -- O(n^2)
+
+/*   Time Complexity = Best O(n) --  Average O(n^2) -- Worst O(n^2)
         Space Complexity = O(1)         */
+
+
  public static void bubbleSort(int[] arr){
         int comparison = 0;
         int n= arr.length;
